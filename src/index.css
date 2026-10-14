@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    touch-action: manipulation;
+  }
+}
+
+/* Custom glow and backdrop effects */
+.cosmic-blur {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.cosmic-gradient-text {
+  background: linear-gradient(135deg, #a78bfa 0%, #38bdf8 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom range slider styling */
+input[type="range"] {
+  accent-color: #818cf8;
+}
+
+/* Hide scrollbar for clean UI tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

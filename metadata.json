@@ -1,0 +1,6 @@
+{
+  "name": "Cosmic Canvas - Alam Semesta Interaktif",
+  "description": "Kanvas alam semesta interaktif dengan partikel bintang memukau, kustomisasi warna lengkap, ukuran, dan kecepatan animasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
